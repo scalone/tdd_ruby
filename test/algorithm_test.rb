@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start if ENV["COVERAGE"]
+
 require 'algorithm.rb'
 require 'test/unit'
 
